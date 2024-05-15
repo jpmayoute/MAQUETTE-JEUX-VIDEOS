@@ -16,7 +16,7 @@ h2 {
 
 /* en tête */
 header {
-    background-color: rgb(10, 8, 121);
+    background-color: #39327B;
 }
 
 .container {
@@ -37,8 +37,9 @@ header {
     align-items: center;
 }
 
-header ul {
+header ul, footer ul {
     list-style: none;
+    padding-left: 0%;
 }
 
 header li {
@@ -85,7 +86,7 @@ h1 {
 
 /* Section articles */
 .articles {
-    background-color: rgb(0, 195, 255);
+    background-color: #FFBF46;
     text-align: center;
     padding: 40px 20px 60px 20px;
 }
@@ -108,6 +109,7 @@ article p {
     padding: 8px 16px;
     font-size: 0.8em;
     border-radius: 10px;
+    border: none;
 }
 
 /* Section compagny */
@@ -129,3 +131,75 @@ article p {
     padding: 0 30px;
 }
 
+/* Section contact */
+.contact {
+    background-image: url(images/background-contact.png);
+    padding: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+input {
+    width: 45%;
+    height: 30px;
+    border: 1px solid #808080;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+form p {
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+button {
+    cursor: pointer;
+}
+
+input[placeholder], textarea[placeholder] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 1.2em;
+}
+
+/* pied de page */
+footer {
+    background-color: #39327B;
+    padding: 10px;
+    color: white;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+
+a {
+    color: aqua;
+    text-decoration: none;
+}
+
+footer img {
+    padding-top: 20px;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid colour white;
+    padding-top: 10px;
+}
